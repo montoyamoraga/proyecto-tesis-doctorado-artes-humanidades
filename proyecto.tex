@@ -1,6 +1,9 @@
 \documentclass[10pt]{article}
+\usepackage{graphicx}
+\graphicspath{imagenes/}
 \usepackage[spanish]{babel}
 \usepackage{mwe}
+\usepackage{subfiles} 
 
 \begin{document}
 
@@ -35,15 +38,7 @@
 
 \section{Palabras clave}
 
-% 5 palabras clave
-
-\begin{itemize}
-    \item Abierto
-    \item Computación
-    \item Electrónica
-    \item Instrumento
-    \item Programable
-\end{itemize}
+\subfile{secciones/palabras-clave.tex}
 
 \newpage
 
